@@ -1,0 +1,212 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    html,
+    body,
+    #app {
+        font-family: "Poppins", sans-serif;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+        @apply appearance-none bg-transparent border-0 outline-none;
+    }
+
+    img {
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -webkit-user-drag: none;
+
+    }
+}
+
+@layer components {
+    .all-\[unset\] {
+        all: unset;
+    }
+
+    .btn-subscription {
+        background: var(--color-gradient-primary) !important;
+        border-radius: 30px !important;
+        color: var(--el-color-black) !important;
+        font-size: var(--el-font-size-large) !important;
+        font-weight: 300 !important;
+        height: 47px !important;
+        padding: 0 25px !important;
+        width: 100% !important;
+    }
+
+    .btn-subscription:hover,
+    .btn-subscription:focus,
+    .btn-subscription:active {
+        filter: brightness(0.98);
+    }
+}
+
+
+:root {
+    --color-gradient-primary: linear-gradient(45deg, #f68d3d 0%, #f69347 3%, #f7a96c 17%, #f9b887 30%, #f9c298 41%, #fac69e 50%, #f9c09d 67%, #f8af9a 88%, #f7a499 100%);
+    --el-color-black: #000000;
+    --el-color-white: #ffffff;
+    --el-font-size-large: 18px;
+    --privacy-com-br-cambria-math-regular-font-family: "Cambria Math", Helvetica;
+    --privacy-com-br-cambria-math-regular-font-size: 14px;
+    --privacy-com-br-cambria-math-regular-font-style: normal;
+    --privacy-com-br-cambria-math-regular-font-weight: 400;
+    --privacy-com-br-cambria-math-regular-letter-spacing: 0px;
+    --privacy-com-br-cambria-math-regular-line-height: 16px;
+    --privacy-com-br-poppins-medium-font-family: "Poppins", Helvetica;
+    --privacy-com-br-poppins-medium-font-size: 14px;
+    --privacy-com-br-poppins-medium-font-style: normal;
+    --privacy-com-br-poppins-medium-font-weight: 500;
+    --privacy-com-br-poppins-medium-letter-spacing: 0px;
+    --privacy-com-br-poppins-medium-line-height: 16px;
+    --privacy-com-br-poppins-regular-font-family: "Poppins", Helvetica;
+    --privacy-com-br-poppins-regular-font-size: 14px;
+    --privacy-com-br-poppins-regular-font-style: normal;
+    --privacy-com-br-poppins-regular-font-weight: 400;
+    --privacy-com-br-poppins-regular-letter-spacing: 0px;
+    --privacy-com-br-poppins-regular-line-height: 19px;
+    --privacy-com-br-semantic-button-font-family: "Poppins", Helvetica;
+    --privacy-com-br-semantic-button-font-size: 16px;
+    --privacy-com-br-semantic-button-font-style: normal;
+    --privacy-com-br-semantic-button-font-weight: 500;
+    --privacy-com-br-semantic-button-letter-spacing: 0px;
+    --privacy-com-br-semantic-button-line-height: 24px;
+    --privacy-com-br-semantic-heading-1-font-family: "Cambria Math", Helvetica;
+    --privacy-com-br-semantic-heading-1-font-size: 20px;
+    --privacy-com-br-semantic-heading-1-font-style: normal;
+    --privacy-com-br-semantic-heading-1-font-weight: 400;
+    --privacy-com-br-semantic-heading-1-letter-spacing: 0px;
+    --privacy-com-br-semantic-heading-1-line-height: 22px;
+    --privacy-com-br-semantic-heading-2-font-family: "Poppins", Helvetica;
+    --privacy-com-br-semantic-heading-2-font-size: 16px;
+    --privacy-com-br-semantic-heading-2-font-style: normal;
+    --privacy-com-br-semantic-heading-2-font-weight: 500;
+    --privacy-com-br-semantic-heading-2-letter-spacing: 0px;
+    --privacy-com-br-semantic-heading-2-line-height: 18px;
+    --privacy-com-br-semantic-link-font-family: "Poppins", Helvetica;
+    --privacy-com-br-semantic-link-font-size: 16px;
+    --privacy-com-br-semantic-link-font-style: normal;
+    --privacy-com-br-semantic-link-font-weight: 400;
+    --privacy-com-br-semantic-link-letter-spacing: 0px;
+    --privacy-com-br-semantic-link-line-height: 18px;
+}
+
+:root {
+    --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+    animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+    animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+    animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+    animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+    animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+    animation: var(--animate-spin);
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes image-glow {
+    0% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+    }
+
+    10% {
+        opacity: 0.7;
+        animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+    }
+
+    to {
+        opacity: 0.4;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes shimmer {
+
+    0%,
+    90%,
+    to {
+        background-position: calc(-100% - var(--shimmer-width)) 0;
+    }
+
+    30%,
+    60% {
+        background-position: calc(100% + var(--shimmer-width)) 0;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+@keyframes marquee-vertical {
+    0% {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(calc(-100% - var(--gap)));
+    }
+}
