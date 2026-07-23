@@ -1,0 +1,16 @@
+.git
+.next
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+
+# secrets / local env — pass these at runtime instead
+.env
+.env.local
+.env*.local
+
+# misc
+*.md
+.vscode
+tsconfig.tsbuildinfo
