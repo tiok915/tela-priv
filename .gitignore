@@ -1,0 +1,10 @@
+/.next
+/node_modules
+
+# env (never commit secrets — the ParadisePags key lives here)
+.env
+.env.local
+.env*.local
+
+# build artifacts
+/tsconfig.tsbuildinfo
