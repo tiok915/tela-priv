@@ -31,7 +31,7 @@ export const PROFILE = {
     status: "online" as ProfileStatus,
     name: "Julinha Santos",
     handle: "@eujulinhasantos",
-    bio: "Conteúdos solos e acompanhada",
+    bio: "",
     avatar: AVATAR,
     cover: COVER,
 
