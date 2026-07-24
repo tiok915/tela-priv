@@ -56,7 +56,7 @@ export const PROFILE = {
     subscription: {
         offer: {
             active: true,
-            title: "Últimas vagas promocionais! Vem matar a curiosidade e gozar com a suruba que fiz com as amiguinhas😈",
+            title: "Promoçãozinha💕💕",
             price: "R$ 20,00",
             originalPrice: "R$ 100,00",
             discount: "Economize 80%",
