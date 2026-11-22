@@ -43,7 +43,7 @@ export const PROFILE = {
     stats: [
         { icon: "/assets/icons/photos.svg", value: "48" },
         { icon: "/assets/icons/midias.svg", value: "64" },
-        { icon: "/assets/icons/heart.svg", value: "353" },
+        { icon: "/assets/icons/heart.svg", value: "15k" },
     ] as StatItem[],
 
     lockedStats: [
