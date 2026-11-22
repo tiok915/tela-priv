@@ -30,13 +30,13 @@ export type ProfileStatus = "online" | "live" | "offline";
 export const PROFILE = {
     status: "online" as ProfileStatus,
     name: "Julinha Santos",
-    handle: "@eujulinhasantos",
+    handle: "@eujulinha__oi",
     bio: "",
     avatar: AVATAR,
     cover: COVER,
 
     socials: [
-        { label: "Instagram", icon: "/assets/icons/insta.svg", url: "https://instagram.com/witchpleasure" },
+        { label: "Instagram", icon: "/assets/icons/insta.svg", url: "https://www.instagram.com/eujulinha__oi/" },
        
     ] as SocialLink[],
 
