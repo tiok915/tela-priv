@@ -64,7 +64,7 @@ const subVideo = (id: string, videoN: number, posterN: number, count = 1): Media
 // Medias
 export const MEDIA: MediaItem[] = [
     subPhoto("m1", 1, 5),
-    { ...subPhoto("m2", 2, 1), showInPosts: true, caption: "Boa noite suxu... tenho uma novidade vindo aí 🏠 quer saber oque to aprontando dessa vez? Hehe", time: "Set 25", likes: "335", mimo: "R$ 593,00" },
+    { ...subPhoto("m2", 2, 1), showInPosts: true, caption: "Boa noite suxu... tenho uma novidade vindo aí 🏠 quer saber oque to aprontando dessa vez? Hehe", time: "Nov 12", likes: "335", mimo: "R$ 593,00" },
     { ...paidVideo("m3", 1, 3, 29000), showInPosts: true, caption: "Oque achou desse roupinha?? rs 🔥🔥🔥", time: "Dez 15, 2025", likes: "438", mimo: "R$ 580,00" },
     paidPhoto("m4", 4, 20000, 8),
     subPhoto("m5", 5, 2),
