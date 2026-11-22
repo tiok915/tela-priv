@@ -41,8 +41,8 @@ export const PROFILE = {
     ] as SocialLink[],
 
     stats: [
-        { icon: "/assets/icons/photos.svg", value: "19" },
-        { icon: "/assets/icons/midias.svg", value: "49" },
+        { icon: "/assets/icons/photos.svg", value: "48" },
+        { icon: "/assets/icons/midias.svg", value: "64" },
         { icon: "/assets/icons/heart.svg", value: "353" },
     ] as StatItem[],
 
