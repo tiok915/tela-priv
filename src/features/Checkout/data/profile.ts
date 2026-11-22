@@ -49,7 +49,7 @@ export const PROFILE = {
     lockedStats: [
         { icon: "/assets/icons/photos-gray.svg", value: "19" },
         { icon: "/assets/icons/midias-gray.svg", value: "49" },
-        { icon: "/assets/icons/heart-gray.svg", value: "15k" },
+        { icon: "/assets/icons/heart-gray.svg", value: "873" },
     ] as StatItem[],
 
     subscription: {
