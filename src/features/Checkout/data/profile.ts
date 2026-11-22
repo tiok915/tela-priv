@@ -30,7 +30,7 @@ export type ProfileStatus = "online" | "live" | "offline";
 export const PROFILE = {
     status: "online" as ProfileStatus,
     name: "Julinha Santos",
-    handle: "@eujulinha__oi",
+    handle: "@eujulinha",
     bio: "",
     avatar: AVATAR,
     cover: COVER,
