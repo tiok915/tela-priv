@@ -56,7 +56,7 @@ export const PROFILE = {
         offer: {
             active: true,
             title: "Promoçãozinha💕💕",
-            price: "R$ 29,99",
+            price: "R$ 19,90",
             originalPrice: "R$ 100,00",
             discount: "Economize 80%",
         } as OfferItem,
