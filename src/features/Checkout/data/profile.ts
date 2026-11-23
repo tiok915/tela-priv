@@ -56,11 +56,11 @@ export const PROFILE = {
         offer: {
             active: true,
             title: "Promoçãozinha💕💕",
-            price: "R$ 19,90",
+            price: "R$ 20,00",
             originalPrice: "R$ 100,00",
             discount: "Economize 80%",
         } as OfferItem,
-        monthly: { label: "1 mês", price: "R$ 29,99" } as PlanItem,
+        monthly: { label: "1 mês", price: "R$ 19,0" } as PlanItem,
         promotions: [
             { label: "3 meses", price: "R$ 89,90" },
             { label: "6 meses", price: "R$ 159,90" },
